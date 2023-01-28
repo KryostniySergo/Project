@@ -1,0 +1,19 @@
+@import './fonts';
+
+.menu{
+    color: black;
+    font-family: "Open Sans Bold";
+}
+
+#our_number{
+    color: #019e8e;
+    /*font-size: 1.5rem;*/
+}
+body{
+    background-color: green;
+}
+
+header{
+    padding: 20px 0;
+    background-color: white;
+}
