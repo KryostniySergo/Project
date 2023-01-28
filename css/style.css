@@ -4,8 +4,11 @@
     font-family: "Open Sans Bold";
 }
 
+/*TAB BAR*/
+
 .menu{
     color: black;
+    padding-top: 1.5rem;
 }
 
 #our_number{
@@ -13,8 +16,10 @@
     /*font-size: 1.5rem;*/
 }
 
-header{
-    padding: 20px 0;
+/*MAIN*/
+
+.main{
+    padding-top: 20px;
     background-color: white;
 }
 
@@ -23,7 +28,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../img/back.png');
-    height: 450px; /*ВОЗМОЖНО УБРАТЬ*/
+    min-height: 30rem; /*ВОЗМОЖНО УБРАТЬ*/
 }
 
 .shadow{
@@ -59,5 +64,19 @@ header{
 
 #under_main_text{
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
-    margin-top: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+/*FEEDBACK*/
+
+.feedback{
+    background-color: #00ac9a;
+    padding-top: 30px;
+    color: white;
+}
+
+#feedback_p{
+    font-family: "Open Sans Semibold";
+    font-size: 15px;
 }
