@@ -9,11 +9,12 @@
     color: #019e8e;
     /*font-size: 1.5rem;*/
 }
-body{
-    background-color: green;
-}
 
 header{
     padding: 20px 0;
     background-color: white;
+}
+
+.main_text{
+    color: red;
 }
