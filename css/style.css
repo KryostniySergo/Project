@@ -6,6 +6,10 @@
 
 /*TAB BAR*/
 
+.header_text{
+    font-size: 1rem;
+}
+
 .menu{
     color: black;
     padding-top: 1.5rem;
@@ -45,17 +49,19 @@
 .green_text{
     color: #00897b;
 }
-
+/*font-size: 30px;*/
 #main_text_oglavlenie_first{
-    font-size: 30px;
+    font-size: 1.8rem;
 }
 
+/*font-size: 30px;*/
 #main_text_oglavlenie_second{
-    font-size: 50px;
+    font-size: 2.5rem;
 }
 
+/*font-size: 40px;*/
 #main_text_oglavlenie_four{
-    font-size: 40px;
+    font-size: 2.3rem;
 }
 
 #main_text_oglavlenie_five{
@@ -74,6 +80,10 @@
     background-color: #00ac9a;
     padding-top: 30px;
     color: white;
+}
+
+#feedback_number{
+    text-align: center;
 }
 
 #feedback_p{
@@ -118,6 +128,10 @@
 }
 
 /*How work*/
+
+.how_work{
+    padding-bottom: 3rem;
+}
 
 .how_work_text{
     padding: 3rem 0;
