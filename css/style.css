@@ -129,8 +129,8 @@
 }
 
 .mycard_item{
-    width: 180px;
-    height: 180px;
+    width: 12rem;
+    height: 12rem;
     border: 5px solid #57f1da;
     border-radius: 50%;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
