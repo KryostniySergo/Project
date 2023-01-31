@@ -22,6 +22,10 @@
 
 /*MAIN*/
 
+.logo{
+    height: 4rem;
+}
+
 .main{
     padding-top: 20px;
     background-color: white;
