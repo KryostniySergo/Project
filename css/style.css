@@ -173,18 +173,21 @@
 }
 
 .about_cards{
-    margin-bottom: 1.1rem;
     padding: 1rem;
     border: 10px solid #85e7d7;
     border-radius: 25px;
-    height: 280px;
+    height: 80%;
     background-color: #cce2de;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
-    font-size: 75%;
 }
 
+.about_cards>h5{
+    font-size: 1rem;
+    text-align: center;
+}
 .about_cards>ul{
-    margin-top: 1.5rem;
+    margin-top: 0;
+    font-size: 0.8rem;
 }
 
 /*FOOTER*/
