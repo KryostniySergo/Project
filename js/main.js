@@ -27,5 +27,9 @@ const formatToPhone = (event) => {
     }
 };
 
+function call(){
+    alert("Сообщение отправлено!")
+}
+
 const inputElement = document.getElementById('phone');
 inputElement.addEventListener('keyup',formatToPhone);
