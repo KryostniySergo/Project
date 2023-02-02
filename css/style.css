@@ -72,6 +72,7 @@
     font-size: 20px;
 }
 
+
 #under_main_text{
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
     margin-top: 2rem;
@@ -112,6 +113,15 @@
 #submit{
     color: white;
     background-color: red;
+}
+
+#submit:hover{
+    color: white;
+    background-color: rgb(175, 0, 0);
+}
+
+#submit:active{
+    transform: translateY(4px);
 }
 
 /*COST*/
