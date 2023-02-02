@@ -17,6 +17,8 @@
       crossorigin="anonymous"
     />
 
+    <script src="https://unpkg.com/libphonenumber-js@1.9.6/bundle/libphonenumber-max.js"></script>
+
     <link rel="stylesheet" href="/css/fonts.css" />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
@@ -102,13 +104,15 @@
               class="feedback_button_item col-xl-3 col-lg-3 col-md-12 col-sm-12"
               type="text"
               name="phone"
-              placeholder="Введите телефон"
+              maxlength="12"
+              placeholder="Введите номер"
               id="phone"
             />
             <button
               class="feedback_button_item col-xl-4 col-lg-4 col-md-12 col-sm-12"
               type="submit"
               name="submit"
+              onclick="call()"
               id="submit"
             >
               Отправить
@@ -173,15 +177,15 @@
           </div>
           <div class="row justify-content-around text-center">
             <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 mycard">
-              <img class="mycard_item" src="/img/first.jpeg" alt="">
+              <img class="mycard_item" src="/img/first.jpeg" alt="" />
               <h5 class="how_work_under_card">Звоните и консультируйтесь</h5>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12 mycard">
-              <img class="mycard_item" src="/img/second.jpeg" alt="">
+              <img class="mycard_item" src="/img/second.jpeg" alt="" />
               <h5 class="how_work_under_card">Оператор принимает заказ</h5>
             </div>
             <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 mycard">
-              <img class="mycard_item" src="/img/third.jpeg" alt="">
+              <img class="mycard_item" src="/img/third.jpeg" alt="" />
               <h5 class="how_work_under_card">Оформление за час и доставка</h5>
             </div>
           </div>
@@ -226,12 +230,11 @@
                     <li>Консультацию врачей-специалистов</li>
                   </ul>
 
-
                   <h5>
                     Основными преимуществами обращения в наш медицинский центр
                     являются :
                   </h5>
-                  
+
                   <ul>
                     <li>
                       Проведение предварительных и периодических медицинских
@@ -253,7 +256,6 @@
                     </li>
                     <li>Консультацию врачей-специалистов</li>
                   </ul>
-
 
                   <h5>
                     Мы используем в своей работе международные стандарты
@@ -292,6 +294,8 @@
       </div>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
+    <script src="./js/main.js"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
